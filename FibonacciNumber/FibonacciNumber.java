@@ -1,3 +1,7 @@
+/**
+ * 
+ * @author szebe
+ */
 
 package fibonaccinumber;
 
@@ -8,11 +12,18 @@ public class FibonacciNumber {
 	private int currentValue;
 	private int previousValue;
 
+	/**
+	 * constructor
+	 */
 	private FibonacciNumber(int currentValue, int previousValue) {
 
 		this.currentValue = currentValue;
 		this.previousValue = previousValue;
 	}
+
+	/**
+	 * method which calculate the first ten fibonacci numbers
+	 */
 
 	public FibonacciNumber next() {
 
